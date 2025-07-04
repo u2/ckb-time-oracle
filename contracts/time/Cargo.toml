@@ -1,0 +1,9 @@
+[package]
+name = "time"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ckb-std = "0.16.4"
+ckb-hash = {version = "0.121.0", default-features = false, features = ["ckb-contract"] }
+molecule = { version = "0.8.0", default-features = false }
